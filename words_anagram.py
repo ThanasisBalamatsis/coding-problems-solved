@@ -1,4 +1,4 @@
-# The following problem was solved was encountered on Codewars
+# The following problem was solved on Codewars
 
 # THE PROBLEM
 # What is an anagram? Well, two words are anagrams of each other if they both contain the same letters. For example:
