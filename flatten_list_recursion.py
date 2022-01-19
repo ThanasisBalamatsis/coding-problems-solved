@@ -20,8 +20,10 @@ def flatten(theList):
     # define function that checks whether the list is flattened at first degree
     def isFlattened(listToBeChecked):
         for i in listToBeChecked:
+            
             if type(i) == list:
                 return False
+            
         return True
     
     # define function that flattens a list at first degree
@@ -32,11 +34,13 @@ def flatten(theList):
         # through another "for" loop.
         flattenedList = []
         for i in range(len(listToBeFlattened)):
+            
             if type(listToBeFlattened[i]) == list:
                 for k in listToBeFlattened[i]:
                     flattenedList.append(k)
             elif type(listToBeFlattened[i]) != list:
                 flattenedList.append(listToBeFlattened[i])
+                
         return flattenedList
     
     #business logic
