@@ -4,7 +4,7 @@
 # The drawing below gives an idea of how to cut a given "true" rectangle into squares 
 #("true" rectangle meaning that the two dimensions are different).
 
-# Assume each cell is a square. Each exploded part is a square as well. 
+# My note: Assume each cell is a square. Each exploded part is a square as well. 
 
 #        
 #     ____ ____ ____ ____ ____
